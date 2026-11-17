@@ -14,8 +14,8 @@ installed packages:
 
 `npx prisma` to view some handy commands + check if installed correctly (optional)
 
-`npx prisma migrate dev --name init` to create tables in DB based off of schema tables
-`npx prisma generate` to generate Prisma files
+`npx prisma migrate dev --name init` to create (compile?) schema tables
+`npx prisma generate` to generate Prisma files (for the schema tables?)
 
 `node script.js` to run script.js, adding a new user to the DB table and printing all users to terminal
 `npx prisma studio` opens a browser visual of DB table
